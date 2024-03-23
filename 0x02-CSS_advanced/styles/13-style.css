@@ -9,10 +9,6 @@ body {
   font-family: var(--font-family-base);
   line-height: var(--line-height-base);
 }
-a {
-  color: #161616;
-  text-decoration: none;
-}
 .visually-hidden {
   display: none;
 }
@@ -24,10 +20,10 @@ a {
   color: var(--color-primary); /* Resetting color as per previous instruction */
   /* Set font family to font-family-title */
   font-family: var(--font-family-title);
-
+  
   /* Transform text using custom property */
   text-transform: var(--section-tagline-transform);
-
+  
   /* Set font weight to font-weight-bold */
   font-weight: var(--font-weight-bold);
   color: var(--color-primary); /* Resetting color as per previous instruction */
@@ -42,7 +38,7 @@ a {
   --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  sans-serif;
   --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
@@ -85,16 +81,16 @@ h6 {
 .section-title {
   /* Set font family to font-family-title */
   font-family: var(--font-family-title);
-
+  
   /* Set font size to font-size-xx-large */
   font-size: var(--font-size-xx-large);
-
+  
   /* Set font weight to font-weight-bold */
   font-weight: var(--font-weight-bold);
 
   /* Set margin using custom property */
   margin: var(--section-title-margin);
-
+  
   /* Set text color using custom property */
   color: var(--section-title-color);
 }
@@ -105,6 +101,10 @@ a[href]:visited {
   font-style: italic;
 }
 
+a:link {
+  color: #161616;
+  text-decoration: none;
+}
 /* Target hover state for the link */
 a[href]:hover {
   /* Decorate links with underline when hovering */
