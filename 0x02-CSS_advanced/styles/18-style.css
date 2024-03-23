@@ -139,22 +139,17 @@ a:active {
   padding: var(--section-body-padding);
 }
 .navbar-menu {
-  /* Let it float to the right */
   float: right;
 }
 
-/* Target the nav class */
 .nav {
-  /* Set margin and padding to 0 on all sides */
   margin: 0;
   padding: 0;
-  /* Center align the text */
+  list-style: none;
   text-align: center;
 }
 
-/* Target the nav-item class in nav */
 .nav .nav-item {
-  /* Set font family, font weight, font size, letter spacing, display, and margin */
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -163,17 +158,12 @@ a:active {
   margin: var(--nav-item-margin);
 }
 
-/* Target the nav-link class in nav */
-.nav .nav-item .nav-link {
-  /* Set display to block */
+.nav .nav-link {
   display: block;
-  /* Set padding */
-  padding: calc(0.5 * 1rem) 1rem;
+  padding: 0.5rem 1rem;
 }
 
-/* Hover state for nav-link class in nav */
-.nav .nav-item .nav-link:hover {
-  /* Set foreground color value to nav-item-link-hover */
+.nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
 .section-footer {
