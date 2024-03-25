@@ -158,8 +158,7 @@ a:active {
   margin: var(--nav-item-margin);
 }
 
-.nav .nav-link {
-  display: block;
+.nav {
   margin: 0;
   padding: 0;
   text-align: center;
